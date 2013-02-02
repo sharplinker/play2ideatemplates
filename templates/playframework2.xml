@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Play framework 2">
+  <template name="act" value="def $ACTION_NAME$ = Action {&#10;  implicit request =&gt; {&#10;    $END$&#10;  }&#10;}" description="Template for Play controller action" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="ok" value="Ok(&quot;$END$&quot;)" description="Template for Ok result" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="200" value="Ok(&quot;$END$&quot;)" description="Template for Ok result" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="500" value="InternalServerError(&quot;$END$&quot;)" description="Template for ISE result" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="404" value="NotFound(&quot;$END$&quot;)" description="Template for not found" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="403" value="Forbidden(&quot;$END$&quot;)" description="Template for forbidden" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="tact" value="def $ACTION_NAME$ = TODO" description="TODO action" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+</templateSet>
+
