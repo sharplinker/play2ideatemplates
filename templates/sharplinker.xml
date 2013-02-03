@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Sharplinker">
+  <template name="ii" value="util.I18N(&quot;$END$&quot;)" description="Template for Sharplinker i18n wrapper" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="asset" value="CdnAsset.url(&quot;$ASSET_NAME$&quot;)" description="Template for Sharplinker CdnAsset util" toReformat="false" toShortenFQNames="true">
+    <variable name="ASSET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+</templateSet>
+
